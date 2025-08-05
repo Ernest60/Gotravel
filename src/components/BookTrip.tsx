@@ -57,7 +57,7 @@ const BookTrip = () => {
           className={`flex flex-col relative mt-10 z-[1]`}
         >
           <div
-            className={`w-[350px] flex flex-col shadow-xl gap-5 shadow-blue-200 rounded-2xl`}
+            className={`w-[300px] md:w-[450px] flex flex-col shadow-xl gap-5 shadow-blue-200 rounded-2xl`}
           >
             <Image
               src={greece}
