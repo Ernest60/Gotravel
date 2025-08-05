@@ -38,7 +38,7 @@ const BookTrip = () => {
         <h1 className={`${style.heading} md:text-5xl`}>Top Destinations</h1>
       </div>
 
-      <div className="flex flex-col justify-center items-center gap-15 md:flex-row">
+      <div className="flex flex-col justify-center items-center gap-15 md:flex-row mt-5">
         <div
           data-aos="fade-down-left"
           data-aos-anchor-placement="top-center"
@@ -54,7 +54,7 @@ const BookTrip = () => {
           data-aos="fade-right"
           data-aos-anchor-placement="top-center"
           data-aos-delay="100"
-          className={`flex flex-col relative mt-10 z-[1]`}
+          className={`flex flex-col  justify-center  items-center relative mt-10 z-[1]`}
         >
           <div
             className={`w-[300px] md:w-[450px] flex flex-col shadow-xl gap-5 shadow-blue-200 rounded-2xl`}
@@ -86,14 +86,14 @@ const BookTrip = () => {
               </div>
             </div>
 
-            <div className="flex flex-row">
+            <div className="flex flex-row mb-3">
               <h4 className="font-paragraph ml-4 text-sm text-primary">
                 13 people going
               </h4>
             </div>
           </div>
 
-          <div className="flex flex-row gap-5 bg-white rounded-2xl shadow-2xl w-60 h-36 ml-44 my-[-86]">
+          <div className="flex flex-row gap-5 bg-white rounded-2xl shadow-2xl w-60 h-36 ml-44 my-[-86] mb-10">
             <Image
               src={greece}
               alt="img"
