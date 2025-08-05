@@ -25,6 +25,7 @@ import mappin from "./mappin.svg";
 import map from "./map.svg";
 import payment from "./payment.svg";
 import play from "./play.svg";
+import house from "./house.svg"
 
 export {
   category1,
@@ -54,4 +55,5 @@ export {
   mappin,
   map,
   play,
+  house
 };

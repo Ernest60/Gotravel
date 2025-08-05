@@ -2,7 +2,7 @@
 import style, { layout } from "@/app/styles";
 import { features } from "../constats";
 import Image from "next/image";
-import { greece, live, map, mappin, send } from "@/assets";
+import { greece, house, live, map, mappin, send } from "@/assets";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
@@ -86,20 +86,23 @@ const BookTrip = () => {
               </div>
             </div>
 
-            <div className="flex flex-row mb-3">
+            <div className="flex flex-row ml-4 mb-3">
+              <Image src={house} alt="img" className="h-5 w-5" />
+
               <h4 className="font-paragraph ml-4 text-sm text-primary">
                 13 people going
               </h4>
             </div>
+
           </div>
 
-          <div className="flex flex-row gap-5 bg-white rounded-2xl shadow-2xl w-60 h-36 ml-44 my-[-86] mb-10">
+          <div className="flex flex-row justify-center items-center gap-5 bg-white rounded-2xl shadow-2xl w-55  h-30 ml-55 my-[-48] mb-10 md:w-75 md:h-35  md:my-[-68] md:ml-75">
             <Image
               src={greece}
               alt="img"
-              className="w-15 h-15 ml-5 rounded-full mt-4"
+              className="w-15 h-15 ml-2 rounded-full mt-4"
             />
-            <div className="flex flex-col gap-2 mt-4">
+            <div className="flex flex-col gap-2 mt-3">
               <h4 className="font-paragraph text-primary text-sm">Ongoing</h4>
               <h1 className="font-title font-bold mb-3 text-primary text-sm">
                 Trip To Portugal
