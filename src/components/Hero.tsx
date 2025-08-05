@@ -24,7 +24,7 @@ const Hero = () => {
             Travel, enjoy and live a new and full life
           </h1>
 
-          <p className={`${style.paragraph} max-w-[650px]`}>
+          <p className={`${style.paragraph} max-w-[650px] md:text-xl`}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Non id sed
             ut? Alias obcaecati quod asperiores temporibus cupiditate possimus,
             dignissimos voluptatum est maiores necessitatibus soluta non
@@ -34,14 +34,14 @@ const Hero = () => {
 
         <div className="flex sm:items-center gap-3">
           <div className="flex flex-row justify-center items-center px-4 h-10 font-paragraph text-lg text-white bg-blue-400 hover:bg-white hover:text-primary border rounded-md cursor-pointer">
-            <h3 className="font-paragraph text-lg text-primary">
+            <h3 className="font-paragraph text-sm text-primary md:text-xl">
               Find Out More
             </h3>
           </div>
 
           <div className="flex flex-row justify-center items-center gap-2 px-4 h-10 hover:bg-blue-400 border border-gray-200 rounded-md cursor-pointer">
-            <Image src={play} alt="image" className="w-5 h-5" />
-            <h3 className="font-paragraph text-lg text-primary">Play Demo</h3>
+            <Image src={play} alt="image" className="w-4 h-4" />
+            <h3 className="font-paragraph text-sm text-primary md:text-xl">Play Demo</h3>
           </div>
         </div>
       </div>

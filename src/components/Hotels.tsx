@@ -13,7 +13,7 @@ const Hotels = () => (
       data-aos-delay="250"
       className="w-full flex flex-col items-start"
     >
-      <h3 className={`${style.paragraph}text-primary`}>Category</h3>
+      <h3 className={`${style.paragraph}text-primary md:text-2xl`}>Category</h3>
       <h1 className={`${style.heading} md:text-5xl`}>We Offer Best Services</h1>
     </div>
 

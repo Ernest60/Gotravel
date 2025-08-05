@@ -1,9 +1,9 @@
 const style = {
   boxWidth: "xl:max-w-[1280px] w-full",
 
-  heading: "font-title text-4xl font-bold mb-3",
+  heading: "font-title text-2xl font-bold mb-3",
 
-  paragraph: "font-paragraph text-xl mb-3 leading-relaxed",
+  paragraph: "font-paragraph text-sm mb-3 leading-relaxed",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",

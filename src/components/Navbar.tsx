@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="w-full flex justify-between items-center">
         {/*LOGO*/}
         <div>
-          <h1 className={`${style.heading}text-primary italic`}>
+          <h1 className={`font-title font-bold text-primary text-4xl italic`}>
             Go<span className="text-blue-400">tra</span>vel
           </h1>
         </div>
@@ -26,7 +26,7 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-paragraph font-normal cursor-pointer text-lg text-primary hover:text-blue-400 ${
+                className={`font-paragraph font-normal cursor-pointer text-xl text-primary hover:text-blue-400 ${
                   index === navLinks.length - 1 ? "mr-0" : "mr-5"
                 }`}
               >

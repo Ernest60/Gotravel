@@ -16,7 +16,7 @@ export const ServicesCard = ({ content, title, icon }) => (
         {title}
       </h3>
 
-      <p className={`${style.paragraph}`}>{content}</p>
+      <p className={`${style.paragraph} md:text-xl`}>{content}</p>
     </div>
   </div>
 );

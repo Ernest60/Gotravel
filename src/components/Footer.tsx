@@ -6,10 +6,10 @@ import Image from "next/image";
 const Footer = () => (
   <section className={`${style.flexCenter} ${style.paddingY} gap-10 flex-col`}>
     <div className={`${style.flexStart} md:flex-row flex-col gap-5 w-full`}>
+      {/*LOGO*/}
       <div className="flex-1 flex flex-col justify-start mr-10">
-        {/*LOGO*/}
         <div className="flex justify-center md:justify-start">
-          <h1 className={`${style.heading}text-primary italic`}>
+          <h1 className={`font-title font-bold text-4xl text-primary italic`}>
             Go<span className="text-blue-400">tra</span>vel
           </h1>
         </div>

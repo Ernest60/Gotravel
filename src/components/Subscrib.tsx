@@ -5,8 +5,8 @@ const Subscrib = () => (
     id="bookings"
     className={`${style.flexCenter} ${style.padding} flex flex-col bg-blue-200/30 rounded-[20px]`}
   >
-    <div className="flex">
-      <h2 className={`${style.heading} text-center`}>
+    <div className="flex mb-5">
+      <h2 className={`${style.heading} text-center md:text-3xl`}>
         Subscribe to get information, latest news and other interesting offers
         about Gotravel
       </h2>
@@ -16,7 +16,7 @@ const Subscrib = () => (
       <input
         type="email"
         placeholder="Enter your email"
-        className="w-[450px] h-10 px-3 text-primary text-sm rounded-md bg-white"
+        className="w-[200px] h-10 px-3 text-primary text-sm rounded-md bg-white md:w-[450px]"
       />
 
       <button className="flex items-center h-10 animate-pulse font-paragraph px-8 py-3 w-full mr-4 cursor-pointer rounded-2xl bg-blue-400 text-dimWhite lg:w-fit">

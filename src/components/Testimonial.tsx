@@ -10,7 +10,7 @@ const Testimonial = () => (
       data-aos-delay="250"
       className={`w-full flex flex-col items-start`}
     >
-      <h3 className={`${style.paragraph} text-primary`}>Testimonials</h3>
+      <h3 className={`${style.paragraph} text-primary md:text-2xl`}>Testimonials</h3>
       <h1 className={`${style.heading} md:text-5xl`}>
         What People Say Abaut Us.
       </h1>
